@@ -1,0 +1,92 @@
+src/app/admin/customizations/page.tsx(133,41): error TS2551: Property 'createdat' does not exist on type 'Customization'. Did you mean 'createdAt'?
+src/app/admin/customizations/page.tsx(133,116): error TS2551: Property 'createdat' does not exist on type 'Customization'. Did you mean 'createdAt'?
+src/app/admin/customizations/page.tsx(160,172): error TS2551: Property 'custominput' does not exist on type 'Customization'. Did you mean 'customInput'?
+src/app/admin/customizations/page.tsx(161,32): error TS2551: Property 'custominput' does not exist on type 'Customization'. Did you mean 'customInput'?
+src/app/admin/customizations/page.tsx(181,27): error TS2551: Property 'adminreply' does not exist on type 'Customization'. Did you mean 'adminReply'?
+src/app/admin/customizations/page.tsx(185,91): error TS2551: Property 'repliedat' does not exist on type 'Customization'. Did you mean 'repliedAt'?
+src/app/admin/customizations/page.tsx(187,30): error TS2551: Property 'adminreply' does not exist on type 'Customization'. Did you mean 'adminReply'?
+src/app/admin/customizations/page.tsx(191,28): error TS2551: Property 'adminreply' does not exist on type 'Customization'. Did you mean 'adminReply'?
+src/app/admin/layout.tsx(53,82): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/layout.tsx(53,118): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/layout.tsx(173,74): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/layout.tsx(173,101): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/messages/page.tsx(108,27): error TS2551: Property 'userid' does not exist on type 'Message'. Did you mean 'userId'?
+src/app/admin/messages/page.tsx(108,141): error TS2551: Property 'userid' does not exist on type 'Message'. Did you mean 'userId'?
+src/app/admin/messages/page.tsx(112,37): error TS2551: Property 'createdat' does not exist on type 'Message'. Did you mean 'createdAt'?
+src/app/admin/messages/page.tsx(112,104): error TS2551: Property 'createdat' does not exist on type 'Message'. Did you mean 'createdAt'?
+src/app/admin/messages/page.tsx(122,23): error TS2551: Property 'admin_reply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(122,42): error TS2551: Property 'adminreply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(126,87): error TS2551: Property 'replied_at' does not exist on type 'Message'. Did you mean 'repliedAt'?
+src/app/admin/messages/page.tsx(126,105): error TS2551: Property 'repliedat' does not exist on type 'Message'. Did you mean 'repliedAt'?
+src/app/admin/messages/page.tsx(128,26): error TS2551: Property 'admin_reply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(128,45): error TS2551: Property 'adminreply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(133,26): error TS2551: Property 'admin_reply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(133,45): error TS2551: Property 'adminreply' does not exist on type 'Message'. Did you mean 'adminReply'?
+src/app/admin/messages/page.tsx(133,83): error TS2551: Property 'user_id' does not exist on type 'Message'. Did you mean 'userId'?
+src/app/admin/messages/page.tsx(133,98): error TS2551: Property 'userid' does not exist on type 'Message'. Did you mean 'userId'?
+src/app/admin/orders/page.tsx(115,65): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/orders/page.tsx(115,96): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/orders/page.tsx(116,130): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/orders/page.tsx(116,162): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/orders/page.tsx(118,50): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/orders/page.tsx(118,69): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/orders/page.tsx(118,116): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/orders/page.tsx(118,135): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/orders/page.tsx(142,56): error TS2551: Property 'paymentscreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(142,83): error TS2551: Property 'paymentScreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(143,173): error TS2551: Property 'paymentscreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(143,200): error TS2551: Property 'paymentScreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(145,66): error TS2551: Property 'paymentscreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(145,93): error TS2551: Property 'paymentScreenshot' does not exist on type 'Order'. Did you mean 'payment_screenshot'?
+src/app/admin/orders/page.tsx(154,116): error TS2551: Property 'paymentmethod' does not exist on type 'Order'. Did you mean 'payment_method'?
+src/app/admin/orders/page.tsx(154,149): error TS2551: Property 'paymentMethod' does not exist on type 'Order'. Did you mean 'payment_method'?
+src/app/admin/orders/page.tsx(161,64): error TS2551: Property 'estimateddelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/admin/orders/page.tsx(161,91): error TS2551: Property 'estimatedDelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/admin/orders/page.tsx(161,154): error TS2551: Property 'estimateddelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/admin/orders/page.tsx(161,181): error TS2551: Property 'estimatedDelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/admin/orders/page.tsx(179,75): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/orders/page.tsx(179,100): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/page.tsx(44,78): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/page.tsx(44,93): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/page.tsx(44,148): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/page.tsx(44,163): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/page.tsx(49,95): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/page.tsx(49,123): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/page.tsx(143,90): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/page.tsx(143,121): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/admin/page.tsx(144,59): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/admin/page.tsx(144,78): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/api/auth/reset-password/route.ts(33,35): error TS2339: Property 'id' does not exist on type 'Promise<User | null>'.
+src/app/api/contact/route.ts(29,24): error TS2339: Property 'email' does not exist on type 'Promise<User | null>'.
+src/app/api/customizations/[id]/feedback/route.ts(25,33): error TS2339: Property 'find' does not exist on type 'Promise<any[]>'.
+src/app/api/customizations/[id]/feedback/route.ts(25,38): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/app/api/orders/[id]/stay/route.ts(30,66): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/api/orders/[id]/stay/route.ts(30,97): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/api/orders/[id]/stay/route.ts(31,68): error TS2551: Property 'shippingdetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/api/orders/[id]/stay/route.ts(31,100): error TS2551: Property 'shippingDetails' does not exist on type 'Order'. Did you mean 'shipping_details'?
+src/app/api/user/change-password/route.ts(32,24): error TS2339: Property 'password' does not exist on type 'Promise<User | null>'.
+src/app/api/user/change-password/route.ts(37,60): error TS2339: Property 'password' does not exist on type 'Promise<User | null>'.
+src/app/api/user/notifications/route.ts(18,52): error TS2339: Property 'filter' does not exist on type 'Promise<any[]>'.
+src/app/api/user/notifications/route.ts(19,7): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/app/api/user/notifications/route.ts(22,40): error TS2339: Property 'filter' does not exist on type 'Promise<any[]>'.
+src/app/api/user/notifications/route.ts(23,7): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/app/api/user/profile/route.ts(27,33): error TS2339: Property 'name' does not exist on type 'Promise<User | null>'.
+src/app/api/user/profile/route.ts(27,58): error TS2339: Property 'email' does not exist on type 'Promise<User | null>'.
+src/app/products/page.tsx(31,10): error TS2339: Property 'description' does not exist on type 'Product'.
+src/app/products/page.tsx(31,27): error TS2339: Property 'description' does not exist on type 'Product'.
+src/app/profile/page.tsx(39,5): error TS2353: Object literal may only specify known properties, and 'isDefault' does not exist in type 'Omit<Address, "id"> | (() => Omit<Address, "id">)'.
+src/app/profile/page.tsx(245,15): error TS2551: Property 'estimatedDelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/profile/page.tsx(246,29): error TS2551: Property 'estimatedDelivery' does not exist on type 'Order'. Did you mean 'estimated_delivery'?
+src/app/profile/page.tsx(252,33): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/profile/page.tsx(360,9): error TS2353: Object literal may only specify known properties, and 'isDefault' does not exist in type 'SetStateAction<Omit<Address, "id">>'.
+src/app/profile/page.tsx(373,9): error TS2353: Object literal may only specify known properties, and 'isDefault' does not exist in type 'SetStateAction<Omit<Address, "id">>'.
+src/app/profile/page.tsx(518,63): error TS2551: Property 'createdat' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/profile/page.tsx(518,82): error TS2551: Property 'createdAt' does not exist on type 'Order'. Did you mean 'created_at'?
+src/app/profile/page.tsx(544,63): error TS2551: Property 'deliveryfee' does not exist on type 'Order'. Did you mean 'delivery_fee'?
+src/app/profile/page.tsx(544,84): error TS2551: Property 'deliveryFee' does not exist on type 'Order'. Did you mean 'delivery_fee'?
+src/app/profile/page.tsx(544,147): error TS2551: Property 'deliveryfee' does not exist on type 'Order'. Did you mean 'delivery_fee'?
+src/app/profile/page.tsx(544,168): error TS2551: Property 'deliveryFee' does not exist on type 'Order'. Did you mean 'delivery_fee'?
+src/app/profile/page.tsx(1030,40): error TS2551: Property 'isDefault' does not exist on type 'Omit<Address, "id">'. Did you mean 'is_default'?
+src/app/profile/page.tsx(1031,68): error TS2353: Object literal may only specify known properties, and 'isDefault' does not exist in type 'SetStateAction<Omit<Address, "id">>'.
+src/app/sitemap.ts(9,32): error TS2339: Property 'map' does not exist on type 'Promise<Product[]>'.
+src/app/sitemap.ts(9,37): error TS7006: Parameter 'product' implicitly has an 'any' type.

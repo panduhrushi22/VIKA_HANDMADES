@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Customised Flowers ",
+    "price": 199,
+    "category": "Bouquets",
+    "stock": 9,
+    "image": "/images/upload-1777022617473-364147080.png",
+    "images": [
+      "/images/upload-1777022617473-364147080.png"
+    ],
+    "rating": 5,
+    "sales": 1,
+    "id": "lf6142k1l",
+    "reviews": []
+  },
+  {
+    "name": "Hampers ",
+    "price": 299,
+    "category": "Hampers",
+    "stock": 9,
+    "image": "/images/upload-1777019675447-795834392.png",
+    "images": [
+      "/images/upload-1777019675447-795834392.png"
+    ],
+    "rating": 5,
+    "sales": 2,
+    "id": "wiuqht2lp",
+    "reviews": []
+  },
+  {
+    "name": "Chocolate Bouquet ",
+    "price": 499,
+    "category": "Bouquets",
+    "stock": 8,
+    "image": "/images/upload-1776959064103-991198524.png",
+    "images": [
+      "/images/upload-1776959064103-991198524.png"
+    ],
+    "rating": 5,
+    "sales": 3,
+    "id": "jki676cic"
+  }
+]

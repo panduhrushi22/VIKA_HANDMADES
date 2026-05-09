@@ -1,0 +1,63 @@
+{
+  "9392536194": {
+    "code": "117332",
+    "expiresAt": 1777550193434,
+    "requestCount": 1,
+    "lastRequest": 1777549893434,
+    "attempts": 0
+  },
+  "manaswinisagar060@gmail.com": {
+    "code": "$2b$10$pw3LBi4JCnQKQ7PeTghKUOYNNCwz9/ceCuc.kzuK3EL9MuDIyWXSG",
+    "expiresAt": 1777633806156,
+    "requestCount": 4,
+    "lastRequest": 1777633506156,
+    "attempts": 0,
+    "isVerified": true
+  },
+  "panduhrushi22@gmail.com": {
+    "code": "$2b$10$1RUsDydQ6RMxLNVqturgFehFpjnY2NlNLto5.AkxVPr2EjVWPZJMG",
+    "expiresAt": 1777632255430,
+    "attempts": 0,
+    "lastRequest": 1777631955430,
+    "requestCount": 4,
+    "isVerified": false
+  },
+  "test@example.com": {
+    "code": "$2b$10$lsSLiOI/jPi/K/KuJ63e8uADOh.i1kUym7pEvwAuFknHLOlISeOyy",
+    "expiresAt": 1777552180594,
+    "attempts": 0,
+    "lastRequest": 1777551880594,
+    "requestCount": 1
+  },
+  "vikahandmades@gmail.com": {
+    "code": "$2b$10$bg3nUL2uGWj/H0B2PYrnd.2wmSSpUvf9U1hNgglASfl82asAqDy1G",
+    "expiresAt": 1777552505028,
+    "attempts": 0,
+    "lastRequest": 1777552205028,
+    "requestCount": 3
+  },
+  "sankethakhare9@gmail.com": {
+    "code": "$2b$10$GxldChwStng2VfSLND4eT.PbfLcUMuDyl8BTQboWxpI4JGkHnWA7m",
+    "expiresAt": 1777633886764,
+    "attempts": 0,
+    "lastRequest": 1777633586764,
+    "requestCount": 1,
+    "isVerified": true
+  },
+  "sankethalkhare9@gmail.com": {
+    "code": "$2b$10$LxoFBM6AkkmuDN.Ql6sPZ.7FhenyRvP8zMhW3AGewqsAHT4GQwmZ.",
+    "expiresAt": 1777633186804,
+    "attempts": 0,
+    "lastRequest": 1777632886804,
+    "requestCount": 1,
+    "isVerified": false
+  },
+  "kalyandeepandu175@gmail.com": {
+    "code": "$2b$10$Ybn207haFx3hlX8K0BlF3OtNJIOjI.SQbvrkZdCprqi71aETqgajW",
+    "expiresAt": 1777726122797,
+    "attempts": 0,
+    "lastRequest": 1777725822797,
+    "requestCount": 1,
+    "isVerified": true
+  }
+}

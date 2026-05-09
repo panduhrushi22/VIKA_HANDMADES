@@ -1,0 +1,395 @@
+[
+  {
+    "id": "h10j1dd7n",
+    "role": "ADMIN",
+    "createdAt": "2026-04-29T05:00:07.506Z",
+    "phone": "8555936477",
+    "password": "$2b$10$C8Bb4PLatLj3bipkHWP7.OF9Z0MdRuZ0ebQ4hD3cSjAhGNmNpgGFW",
+    "name": "Hrushi",
+    "cart": [
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 8,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 3,
+        "id": "jki676cic",
+        "quantity": 1
+      },
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 9,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 2,
+        "id": "wiuqht2lp",
+        "reviews": [
+          {
+            "id": "31k4an6ba",
+            "userName": "Virupa",
+            "rating": 5,
+            "comment": "This Hamper is really good it look so elegant ❤️",
+            "date": "29 April 2026"
+          }
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 9,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "lf6142k1l",
+        "reviews": [
+          {
+            "id": "wbllghxh7",
+            "userName": "Hrushi ",
+            "rating": 5,
+            "comment": "I really liked this product it is worthy ",
+            "date": "28 April 2026"
+          }
+        ],
+        "quantity": 1
+      }
+    ],
+    "wishlist": [
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 10,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "wiuqht2lp",
+        "reviews": [
+          {
+            "id": "31k4an6ba",
+            "userName": "Virupa",
+            "rating": 5,
+            "comment": "This Hamper is really good it look so elegant ❤️",
+            "date": "29 April 2026"
+          }
+        ]
+      },
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 10,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 0,
+        "id": "lf6142k1l",
+        "reviews": [
+          {
+            "id": "wbllghxh7",
+            "userName": "Hrushi ",
+            "rating": 5,
+            "comment": "I really liked this product it is worthy ",
+            "date": "28 April 2026"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 8,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 3,
+        "id": "jki676cic"
+      }
+    ],
+    "email": "vikahandmades@gmail.com"
+  },
+  {
+    "id": "4r5ku4eiz",
+    "role": "USER",
+    "createdAt": "2026-04-29T05:47:27.616Z",
+    "phone": "9392536194",
+    "password": "$2b$10$Juw/mDpM3a.4xlOgFPy4geyEoFvqddqRK.uYT7sMrog/OjF3Aryvq",
+    "name": "manu",
+    "cart": [
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 10,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "jki676cic",
+        "quantity": 1
+      },
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 10,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "wiuqht2lp",
+        "quantity": 1
+      },
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 10,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 0,
+        "id": "lf6142k1l",
+        "reviews": [
+          {
+            "id": "wbllghxh7",
+            "userName": "Hrushi ",
+            "rating": 5,
+            "comment": "I really liked this product it is worthy ",
+            "date": "28 April 2026"
+          }
+        ],
+        "quantity": 1
+      }
+    ],
+    "wishlist": [
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 10,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "jki676cic"
+      },
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 10,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "wiuqht2lp"
+      },
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 10,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 0,
+        "id": "lf6142k1l",
+        "reviews": [
+          {
+            "id": "wbllghxh7",
+            "userName": "Hrushi ",
+            "rating": 5,
+            "comment": "I really liked this product it is worthy ",
+            "date": "28 April 2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qnkxrm8h6",
+    "role": "USER",
+    "createdAt": "2026-04-30T11:52:43.195Z",
+    "phone": "9392536194",
+    "password": "$2b$10$dRY4Ewv.tyLpZQzBHD8Rf.U47FUgo7xKnAPlAk.hr9kbPswlwA.UC",
+    "name": "manaswini ",
+    "cart": [],
+    "wishlist": []
+  },
+  {
+    "id": "xb2zcdq5r",
+    "role": "USER",
+    "createdAt": "2026-04-30T16:29:34.256Z",
+    "email": "sanjay@gmail.com",
+    "password": "$2b$10$oeZvnyTAV8sRVaaVe27yJ.ntp7p8WVwhrsWWsIWWO0V74oP14dy1u",
+    "name": "sanjay",
+    "cart": [
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 8,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 3,
+        "id": "jki676cic",
+        "quantity": 2
+      }
+    ],
+    "wishlist": []
+  },
+  {
+    "id": "tok1pyni8",
+    "role": "USER",
+    "createdAt": "2026-05-01T10:54:17.746Z",
+    "email": "sankethakhare9@gmail.com",
+    "password": "$2b$10$FtXkBw4u8xAw3DLevWomIuMzNKxHdAvn7Be9edwqDzcbBIJz58iEW",
+    "name": "Sanketh",
+    "cart": [],
+    "wishlist": []
+  },
+  {
+    "id": "nfwieyrkw",
+    "role": "USER",
+    "createdAt": "2026-05-01T10:57:44.384Z",
+    "email": "manaswinisagar060@gmail.com",
+    "password": "$2b$10$FnoyNLIUO.Iu3p7j9/Hzp.4gqpJBN1wAC2WsgSoPq7aD1zy5TUa46",
+    "name": "Manaswini",
+    "cart": [],
+    "wishlist": []
+  },
+  {
+    "id": "h6trx6cj8",
+    "role": "USER",
+    "createdAt": "2026-05-02T12:45:26.884Z",
+    "email": "kalyandeepandu175@gmail.com",
+    "password": "$2b$10$cEoum8jqsOXbVAgVz69O9e3hAJ/ipX1lDrk2wr16VsrwpHlShYI5S",
+    "name": "kalyan",
+    "cart": [
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 9,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "lf6142k1l",
+        "reviews": [],
+        "quantity": 1
+      },
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 9,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 2,
+        "id": "wiuqht2lp",
+        "reviews": [],
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 8,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 3,
+        "id": "jki676cic",
+        "quantity": 1
+      }
+    ],
+    "wishlist": [
+      {
+        "name": "Customised Flowers ",
+        "price": 199,
+        "category": "Bouquets",
+        "stock": 9,
+        "image": "/images/upload-1777022617473-364147080.png",
+        "images": [
+          "/images/upload-1777022617473-364147080.png"
+        ],
+        "rating": 5,
+        "sales": 1,
+        "id": "lf6142k1l",
+        "reviews": []
+      },
+      {
+        "name": "Hampers ",
+        "price": 299,
+        "category": "Hampers",
+        "stock": 9,
+        "image": "/images/upload-1777019675447-795834392.png",
+        "images": [
+          "/images/upload-1777019675447-795834392.png"
+        ],
+        "rating": 5,
+        "sales": 2,
+        "id": "wiuqht2lp",
+        "reviews": []
+      },
+      {
+        "name": "Chocolate Bouquet ",
+        "price": 499,
+        "category": "Bouquets",
+        "stock": 8,
+        "image": "/images/upload-1776959064103-991198524.png",
+        "images": [
+          "/images/upload-1776959064103-991198524.png"
+        ],
+        "rating": 5,
+        "sales": 3,
+        "id": "jki676cic"
+      }
+    ]
+  }
+]

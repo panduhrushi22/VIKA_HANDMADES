@@ -1,0 +1,67 @@
+.shareWrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shareBtn {
+  background: white;
+  color: #6366f1;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 2px solid #6366f1;
+}
+
+.shareBtn:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: #6366f1;
+  color: white;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 110%;
+  background: #0f172a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  animation: fadeInOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(10px); }
+  20% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+@media (max-width: 768px) {
+  .shareWrapper {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+  
+  .shareBtn span {
+    display: none;
+  }
+  
+  .shareBtn {
+    padding: 0.75rem;
+    border-radius: 50%;
+  }
+}
