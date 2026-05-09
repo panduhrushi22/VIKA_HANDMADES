@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: verification.message || 'Invalid or expired OTP' }, { status: 400 });
     }
 
-    const user = findUserByIdentifier(identifier);
+    const user = await findUserByIdentifier(identifier);
     if (!user) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
     }

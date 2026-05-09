@@ -21,7 +21,7 @@ export async function PATCH(
     }
 
     // Verify ownership
-    const customizations = loadCustomizations();
+    const customizations = await loadCustomizations();
     const item = customizations.find(c => c.id === id);
     
     if (!item) {

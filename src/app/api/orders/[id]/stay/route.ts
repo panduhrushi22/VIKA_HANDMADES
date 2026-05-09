@@ -27,8 +27,8 @@ export async function POST(
     // Notify Admin via Email
     try {
       const adminEmail = process.env.CONTACT_RECEIVER_EMAIL || process.env.GMAIL_USER || 'vikahandmades@gmail.com';
-      const customerName = order.shipping_details?.name || order.shippingdetails?.name || order.shippingDetails?.name || 'Customer';
-      const customerPhone = order.shipping_details?.phone || order.shippingdetails?.phone || order.shippingDetails?.phone || 'N/A';
+      const customerName = order.shipping_details?.name || 'Customer';
+      const customerPhone = order.shipping_details?.phone || 'N/A';
       const orderTotal = order.total || 0;
 
       await sendEmail(

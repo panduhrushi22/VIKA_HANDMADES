@@ -11,7 +11,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Please login to send a message.' }, { status: 401 });
     }
 
-    const user = findUserById(session.userId);
+    const user = await findUserById(session.userId);
     if (!user) {
       return NextResponse.json({ error: 'User not found.' }, { status: 404 });
     }

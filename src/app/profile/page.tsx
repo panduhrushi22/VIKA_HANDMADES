@@ -36,7 +36,7 @@ export default function ProfilePage() {
     city: '',
     state: '',
     pincode: '',
-    isDefault: false
+    is_default: false
   });
 
   // Password change states
@@ -242,14 +242,14 @@ export default function ProfilePage() {
   };
 
   const getEstimatedDelivery = (order: Order) => {
-    if (order.estimatedDelivery) {
-      return new Date(order.estimatedDelivery).toLocaleDateString('en-IN', {
+    if (order.estimated_delivery) {
+      return new Date(order.estimated_delivery).toLocaleDateString('en-IN', {
         day: 'numeric',
         month: 'long',
         year: 'numeric'
       });
     }
-    const date = new Date(order.createdAt);
+    const date = new Date(order.created_at);
     date.setDate(date.getDate() + 4); // Default 4 days for delivery
     return date.toLocaleDateString('en-IN', {
       day: 'numeric',
@@ -357,7 +357,7 @@ export default function ProfilePage() {
         city: address.city,
         state: address.state,
         pincode: address.pincode,
-        isDefault: address.is_default || (address as any).isDefault
+        is_default: address.is_default || (address as any).isDefault
       });
     } else {
       setEditingAddress(null);
@@ -370,7 +370,7 @@ export default function ProfilePage() {
         city: '',
         state: '',
         pincode: '',
-        isDefault: false
+        is_default: false
       });
     }
     setIsAddressModalOpen(true);
@@ -515,7 +515,7 @@ export default function ProfilePage() {
                       <div>
                         <span className={styles.orderId}>Order #{order.id}</span>
                         <span className={styles.orderDate}>
-                          {new Date(order.created_at || order.createdat || order.createdAt).toLocaleDateString()}
+                          {new Date(order.created_at).toLocaleDateString()}
                         </span>
                       </div>
                       <span className={`${styles.orderStatus} ${styles['status-' + order.status?.toLowerCase()]}`}>
@@ -541,7 +541,7 @@ export default function ProfilePage() {
                         </div>
                         <div className={styles.summaryRow}>
                           <span>Shipping</span>
-                          <span>{(order.delivery_fee || order.deliveryfee || order.deliveryFee) === 0 ? 'FREE' : `₹${(order.delivery_fee || order.deliveryfee || order.deliveryFee)}`}</span>
+                          <span>{(order.delivery_fee || 0) === 0 ? 'FREE' : `₹${(order.delivery_fee || 0).toLocaleString('en-IN')}`}</span>
                         </div>
                         {(order.discount || 0) > 0 && (
                           <div className={styles.summaryRow} style={{ color: 'var(--color-success)' }}>
@@ -1027,8 +1027,8 @@ export default function ProfilePage() {
               <div className={styles.formGroup} style={{ flexDirection: 'row', alignItems: 'center', gap: '0.5rem' }}>
                 <input 
                   type="checkbox" 
-                  checked={addressForm.isDefault} 
-                  onChange={(e) => setAddressForm({...addressForm, isDefault: e.target.checked})}
+                  checked={addressForm.is_default} 
+                  onChange={(e) => setAddressForm({...addressForm, is_default: e.target.checked})}
                   style={{ width: 'auto' }}
                 />
                 <label style={{ margin: 0 }}>Set as default address</label>

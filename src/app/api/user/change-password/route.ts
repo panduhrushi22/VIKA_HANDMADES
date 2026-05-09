@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       }, { status: 400 });
     }
 
-    const user = findUserById(session.userId);
+    const user = await findUserById(session.userId);
     if (!user || !user.password) {
       return NextResponse.json({ error: 'User not found or password not set' }, { status: 404 });
     }

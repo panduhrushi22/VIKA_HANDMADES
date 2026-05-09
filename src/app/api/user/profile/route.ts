@@ -16,7 +16,7 @@ export async function PUT(request: Request) {
       return NextResponse.json({ error: 'Invalid email format' }, { status: 400 });
     }
 
-    const updatedUser = updateUserProfile(session.userId, { name, email });
+    const updatedUser = await updateUserProfile(session.userId, { name, email });
     
     if (!updatedUser) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
