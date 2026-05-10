@@ -135,14 +135,18 @@ function LoginForm() {
                 value={identifier}
                 onChange={(e) => {
                   const val = e.target.value;
-                  // If it looks like a phone number starting with +91 or just 10 digits
-                  if (/^\+91\s?\d*$/.test(val) || (/^\d+$/.test(val) && val.length <= 10)) {
-                    const clean = val.replace(/\D/g, '').slice(0, 10);
-                    let formatted = clean;
-                    if (clean.length > 5) {
-                      formatted = clean.slice(0, 5) + ' ' + clean.slice(5);
+                  if (/^\d/.test(val) || val.startsWith('+91')) {
+                    const numericStr = val.startsWith('+91') ? val.substring(3).replace(/\D/g, '') : val.replace(/\D/g, '');
+                    const clean = numericStr.slice(0, 10);
+                    if (clean.length === 0) {
+                      setIdentifier('');
+                    } else {
+                      let formatted = clean;
+                      if (clean.length > 5) {
+                        formatted = clean.slice(0, 5) + ' ' + clean.slice(5);
+                      }
+                      setIdentifier('+91 ' + formatted);
                     }
-                    setIdentifier(clean.length > 0 ? '+91 ' + formatted : '');
                   } else {
                     setIdentifier(val);
                   }
@@ -217,13 +221,18 @@ function LoginForm() {
                     value={identifier}
                     onChange={(e) => {
                       const val = e.target.value;
-                      if (/^\+91\s?\d*$/.test(val) || (/^\d+$/.test(val) && val.length <= 10)) {
-                        const clean = val.replace(/\D/g, '').slice(0, 10);
-                        let formatted = clean;
-                        if (clean.length > 5) {
-                          formatted = clean.slice(0, 5) + ' ' + clean.slice(5);
+                      if (/^\d/.test(val) || val.startsWith('+91')) {
+                        const numericStr = val.startsWith('+91') ? val.substring(3).replace(/\D/g, '') : val.replace(/\D/g, '');
+                        const clean = numericStr.slice(0, 10);
+                        if (clean.length === 0) {
+                          setIdentifier('');
+                        } else {
+                          let formatted = clean;
+                          if (clean.length > 5) {
+                            formatted = clean.slice(0, 5) + ' ' + clean.slice(5);
+                          }
+                          setIdentifier('+91 ' + formatted);
                         }
-                        setIdentifier(clean.length > 0 ? '+91 ' + formatted : '');
                       } else {
                         setIdentifier(val);
                       }
