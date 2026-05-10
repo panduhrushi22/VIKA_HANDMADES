@@ -12,8 +12,8 @@ export async function GET() {
 
     const userId = session.userId;
     
-    const allCustomizations = loadCustomizations();
-    const allMessages = loadMessages();
+    const allCustomizations = await loadCustomizations();
+    const allMessages = await loadMessages();
 
     const unreadCustomizations = allCustomizations.filter(
       c => c.userId === userId && c.adminReply && c.isReadByUser === false
